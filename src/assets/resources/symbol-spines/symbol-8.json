@@ -1,74 +1,63 @@
 {
-"skeleton": {
-	"hash": "oV6r0ZAmYcXPuI+XcBzj0ZV2R4U",
-	"spine": "3.8.99",
-	"x": -64.02,
-	"y": -64.02,
-	"width": 128.04,
-	"height": 128.04,
-	"images": "./image/",
-	"audio": ""
-},
+"skeleton": { "hash": "woRTmSEUqHRR2MdB0r7LvZzzjZ0", "spine": "3.8.99", "x": -55, "y": -55, "width": 110, "height": 110 },
 "bones": [
 	{ "name": "root" },
-	{ "name": "all-null", "parent": "root", "scaleX": 1.164, "scaleY": 1.164 },
-	{ "name": "body", "parent": "all-null", "length": 43.83, "rotation": 90.43, "x": 0.2, "y": -47 },
+	{ "name": "body", "parent": "root", "length": 43.83, "rotation": 90.43, "x": 0.2, "y": -47 },
 	{ "name": "head", "parent": "body", "length": 71.22, "rotation": -0.83, "x": 40.84, "y": -0.14 },
-	{ "name": "Crook", "parent": "all-null", "length": 70.86, "rotation": 56.76, "x": 6.51, "y": -52.81 },
-	{ "name": "Flail", "parent": "all-null", "length": 54.45, "rotation": 118.6, "x": -8.1, "y": -53.14 }
+	{ "name": "Crook", "parent": "root", "length": 70.86, "rotation": 56.76, "x": 6.51, "y": -52.81 },
+	{ "name": "Flail", "parent": "root", "length": 54.45, "rotation": 118.6, "x": -8.1, "y": -53.14 }
 ],
 "slots": [
-	{ "name": "Frame+BG", "bone": "all-null", "attachment": "Frame+BG" },
-	{ "name": "symbol_8_GoldenSarcophagusofRamses", "bone": "all-null" },
-	{ "name": "text_shine/text_shine_00", "bone": "all-null", "attachment": "text_shine/text_shine_00" },
-	{ "name": "text_shine/text_shine_01", "bone": "all-null", "attachment": "text_shine/text_shine_01" },
-	{ "name": "text_shine/text_shine_02", "bone": "all-null", "attachment": "text_shine/text_shine_02" },
-	{ "name": "text_shine/text_shine_03", "bone": "all-null", "attachment": "text_shine/text_shine_03" },
-	{ "name": "text_shine/text_shine_04", "bone": "all-null", "attachment": "text_shine/text_shine_04" },
-	{ "name": "text_shine/text_shine_05", "bone": "all-null", "attachment": "text_shine/text_shine_05" },
-	{ "name": "text_shine/text_shine_06", "bone": "all-null", "attachment": "text_shine/text_shine_06" },
-	{ "name": "text_shine/text_shine_07", "bone": "all-null", "attachment": "text_shine/text_shine_07" },
-	{ "name": "text_shine/text_shine_08", "bone": "all-null", "attachment": "text_shine/text_shine_08" },
-	{ "name": "text_shine/text_shine_09", "bone": "all-null", "attachment": "text_shine/text_shine_09" },
-	{ "name": "text_shine/text_shine_10", "bone": "all-null", "attachment": "text_shine/text_shine_10" },
-	{ "name": "text_shine/text_shine_11", "bone": "all-null", "attachment": "text_shine/text_shine_11" },
-	{ "name": "text_shine/text_shine_12", "bone": "all-null", "attachment": "text_shine/text_shine_12" },
-	{ "name": "text_shine/text_shine_13", "bone": "all-null", "attachment": "text_shine/text_shine_13" },
-	{ "name": "text_shine/text_shine_14", "bone": "all-null", "attachment": "text_shine/text_shine_14" },
-	{ "name": "text_shine/text_shine_15", "bone": "all-null", "attachment": "text_shine/text_shine_15" },
-	{ "name": "text_shine/text_shine_16", "bone": "all-null", "attachment": "text_shine/text_shine_16" },
-	{ "name": "text_shine/text_shine_17", "bone": "all-null", "attachment": "text_shine/text_shine_17" },
-	{ "name": "text_shine/text_shine_18", "bone": "all-null", "attachment": "text_shine/text_shine_18" },
-	{ "name": "text_shine/text_shine_19", "bone": "all-null", "attachment": "text_shine/text_shine_19" },
-	{ "name": "text_shine/text_shine_20", "bone": "all-null", "attachment": "text_shine/text_shine_20" },
-	{ "name": "shine", "bone": "all-null", "blend": "additive" },
+	{ "name": "Frame+BG", "bone": "root", "attachment": "Frame+BG" },
+	{ "name": "symbol_8_GoldenSarcophagusofRamses", "bone": "root" },
+	{ "name": "text_shine/text_shine_00", "bone": "root", "attachment": "text_shine/text_shine_00" },
+	{ "name": "text_shine/text_shine_01", "bone": "root", "attachment": "text_shine/text_shine_01" },
+	{ "name": "text_shine/text_shine_02", "bone": "root", "attachment": "text_shine/text_shine_02" },
+	{ "name": "text_shine/text_shine_03", "bone": "root", "attachment": "text_shine/text_shine_03" },
+	{ "name": "text_shine/text_shine_04", "bone": "root", "attachment": "text_shine/text_shine_04" },
+	{ "name": "text_shine/text_shine_05", "bone": "root", "attachment": "text_shine/text_shine_05" },
+	{ "name": "text_shine/text_shine_06", "bone": "root", "attachment": "text_shine/text_shine_06" },
+	{ "name": "text_shine/text_shine_07", "bone": "root", "attachment": "text_shine/text_shine_07" },
+	{ "name": "text_shine/text_shine_08", "bone": "root", "attachment": "text_shine/text_shine_08" },
+	{ "name": "text_shine/text_shine_09", "bone": "root", "attachment": "text_shine/text_shine_09" },
+	{ "name": "text_shine/text_shine_10", "bone": "root", "attachment": "text_shine/text_shine_10" },
+	{ "name": "text_shine/text_shine_11", "bone": "root", "attachment": "text_shine/text_shine_11" },
+	{ "name": "text_shine/text_shine_12", "bone": "root", "attachment": "text_shine/text_shine_12" },
+	{ "name": "text_shine/text_shine_13", "bone": "root", "attachment": "text_shine/text_shine_13" },
+	{ "name": "text_shine/text_shine_14", "bone": "root", "attachment": "text_shine/text_shine_14" },
+	{ "name": "text_shine/text_shine_15", "bone": "root", "attachment": "text_shine/text_shine_15" },
+	{ "name": "text_shine/text_shine_16", "bone": "root", "attachment": "text_shine/text_shine_16" },
+	{ "name": "text_shine/text_shine_17", "bone": "root", "attachment": "text_shine/text_shine_17" },
+	{ "name": "text_shine/text_shine_18", "bone": "root", "attachment": "text_shine/text_shine_18" },
+	{ "name": "text_shine/text_shine_19", "bone": "root", "attachment": "text_shine/text_shine_19" },
+	{ "name": "text_shine/text_shine_20", "bone": "root", "attachment": "text_shine/text_shine_20" },
+	{ "name": "shine", "bone": "root", "blend": "additive" },
 	{ "name": "Sarcophagus-of-Ramses", "bone": "body", "attachment": "Sarcophagus-of-Ramses" },
 	{ "name": "eye_close", "bone": "head", "attachment": "eye_close" },
 	{ "name": "Emerald", "bone": "head", "attachment": "Emerald", "blend": "additive" },
 	{ "name": "Crook", "bone": "Crook", "attachment": "Crook" },
 	{ "name": "Flail", "bone": "Flail", "attachment": "Flail" },
-	{ "name": "Frame", "bone": "all-null", "attachment": "Frame" },
-	{ "name": "s8_explode/s8_explode_00", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_01", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_02", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_03", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_04", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_05", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_06", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_07", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_08", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_09", "bone": "all-null" },
-	{ "name": "s8_explode/s8_explode_10", "bone": "all-null" },
-	{ "name": "smoke/smoke_02", "bone": "all-null" },
-	{ "name": "smoke/smoke_03", "bone": "all-null" },
-	{ "name": "smoke/smoke_04", "bone": "all-null" },
-	{ "name": "smoke/smoke_05", "bone": "all-null" },
-	{ "name": "smoke/smoke_06", "bone": "all-null" },
-	{ "name": "smoke/smoke_07", "bone": "all-null" },
-	{ "name": "smoke/smoke_08", "bone": "all-null" },
-	{ "name": "smoke/smoke_09", "bone": "all-null" },
-	{ "name": "smoke/smoke_10", "bone": "all-null" },
-	{ "name": "smoke/smoke_11", "bone": "all-null" }
+	{ "name": "s8_explode/s8_explode_00", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_01", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_02", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_03", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_04", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_05", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_06", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_07", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_08", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_09", "bone": "root" },
+	{ "name": "s8_explode/s8_explode_10", "bone": "root" },
+	{ "name": "smoke/smoke_02", "bone": "root" },
+	{ "name": "smoke/smoke_03", "bone": "root" },
+	{ "name": "smoke/smoke_04", "bone": "root" },
+	{ "name": "smoke/smoke_05", "bone": "root" },
+	{ "name": "smoke/smoke_06", "bone": "root" },
+	{ "name": "smoke/smoke_07", "bone": "root" },
+	{ "name": "smoke/smoke_08", "bone": "root" },
+	{ "name": "smoke/smoke_09", "bone": "root" },
+	{ "name": "smoke/smoke_10", "bone": "root" },
+	{ "name": "smoke/smoke_11", "bone": "root" }
 ],
 "skins": [
 	{
@@ -80,10 +69,7 @@
 					"uvs": [ 1, 1, 0, 1, 0, 0, 1, 0 ],
 					"triangles": [ 1, 2, 3, 1, 3, 0 ],
 					"vertices": [ 20.43, -25.75, 2.34, 1.85, 39.98, 26.52, 58.07, -1.08 ],
-					"hull": 4,
-					"edges": [ 0, 2, 2, 4, 4, 6, 0, 6 ],
-					"width": 33,
-					"height": 45
+					"hull": 4
 				}
 			},
 			"Emerald": {
@@ -91,9 +77,6 @@
 			},
 			"Flail": {
 				"Flail": { "x": 27.94, "y": 3.02, "rotation": -118.6, "width": 33, "height": 40 }
-			},
-			"Frame": {
-				"Frame": { "path": "s8-Frame", "width": 110, "height": 110 }
 			},
 			"Frame+BG": {
 				"Frame+BG": { "width": 110, "height": 110 }
@@ -253,11 +236,6 @@
 				]
 			},
 			"Flail": {
-				"attachment": [
-					{ "name": null }
-				]
-			},
-			"Frame": {
 				"attachment": [
 					{ "name": null }
 				]
