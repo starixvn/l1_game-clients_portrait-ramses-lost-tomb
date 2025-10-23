@@ -102,5 +102,14 @@
     "symbol-scatter-win": {
         "bundle": "resources",
         "isLazyLoad": true
+    },"super-win": {
+        "bundle": "resources",
+        "path": "super-win",
+        "isLazyLoad": true
+    },
+    "mega-win": {
+        "bundle": "resources",
+        "path": "mega-win",
+        "isLazyLoad": true
     }
 }
